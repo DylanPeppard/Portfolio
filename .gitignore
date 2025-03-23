@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+dist
 dist-ssr
 *.local
 
@@ -38,6 +39,7 @@ bun.lockb
 .env.production.local
 
 # Vite build output
+dist/
 .vite/
 
 # MacOS files
