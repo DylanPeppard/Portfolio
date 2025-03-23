@@ -217,23 +217,30 @@ body {
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: start;
 }
 
 .project {
+  display: flex;               /* Use flexbox for layout */
+  flex-direction: column;      /* Stack image and caption vertically */
+  justify-content: center;     /* Center items vertically */
+  align-items: center;         /* Center items horizontally */
   margin: auto;
-  padding-right: 38px;
   padding-top: 40px;
+  padding-bottom: 30px;
   transition: transform 0.3s ease; /* Apply a smooth scaling transition */
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .caption {
   font-size: 22px;
   margin: auto;
   height: 150px;
-  padding-left: 30px;
-  padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 10px;
+  text-align: center;
   transition: font-size 0.3s ease, max-height 0.3s ease; /* Apply smooth transitions */
 }
 
@@ -248,8 +255,18 @@ body {
   margin-right: auto;
 }
 
+@media (max-width: 1024px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 600px) {
   .portfolio-items-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
     grid-template-columns: 1fr;
   }
 }
