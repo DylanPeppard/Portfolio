@@ -29,14 +29,11 @@ export function Contact ({}) {
                 </div>
 
                 <div>
-                    <img src="src/public/cell.png" alt="Cellphone"/>
-                    <div>
-                        <div>858-380-6719</div>
-                    </div>
+                    <a href="https://www.linkedin.com/in/dylan-peppard-896713132/" target="_blank"><img src="src/public/LinkedIn.png" alt="LinkedIn logo"/></a>
                 </div>
 
                 <div>
-                <a href="https://www.instagram.com/dylan_p_1998/"><img src="src/public/ig.png" alt="Instagram logo"/></a>
+                <a href="https://github.com/DylanPeppard" target="_blank"><img src="src/public/github.png" alt="GitHub logo"/></a>
                 </div>
             </div>
         </div>
