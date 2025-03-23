@@ -1,5 +1,5 @@
 //import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Projects from './Projects'
 import Home from './Home'
 import Contact from './Contact'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/Portfolio">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
