@@ -7,11 +7,11 @@ export function Projects ({}) {
             <div className = "wrapper">
                 <div className = "left">
                     <div className = "link-wrapper">
-                        <a href="home">HOME</a>
+                        <Link to="/">HOME</Link>
                     </div>
 
                     <div className = "link-wrapper">
-                        <a href="contact">CONTACT</a>
+                        <Link to='/contact'>CONTACT</Link>
                     </div>
                 </div>
                 <div className = "my-name">

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export function Education ({}) {
     return (
             <>
@@ -5,11 +7,10 @@ export function Education ({}) {
                 <div className = "wrapper">
                     <div className = "left">
                         <div className = "link-wrapper">
-                            <a href="home">HOME</a>
+                            <Link to='/home'>HOME</Link>
                         </div>
-                                <div className = "link-wrapper">
-        
-                            <a href="contact">CONTACT</a>
+                        <div className = "link-wrapper">
+                            <Link to='/contact'>CONTACT</Link>
                         </div>
                     </div>
                     <div className = "right">
