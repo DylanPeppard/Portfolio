@@ -74,8 +74,8 @@ export function Education ({}) {
                             <li>Project Management</li>
                         </ul>
                     </div>
-                    <img src= "src/public/donald-bren-hall.jpg" className = "college-images" alt="Donald Bren Hall building"/>
-                    <img src = "src/public/uci.png" className = "college-images" alt="UCI logo"/>
+                    <img src= "donald-bren-hall.jpg" className = "college-images" alt="Donald Bren Hall building"/>
+                    <img src = "uci.png" className = "college-images" alt="UCI logo"/>
         
                     <div className = "degree-type">
                         <strong>Transfer Courses</strong>
@@ -106,8 +106,8 @@ export function Education ({}) {
                             <li>Linear Algebra</li>
                         </ul>
                     </div>
-                    <img src= "src/public/citycollege.jpg" className = "college-images" alt="San Diego City College"/>
-                    <img src = "src/public/sdccd.png" className = "college-images" alt="SDCCD Logo"/>
+                    <img src= "citycollege.jpg" className = "college-images" alt="San Diego City College"/>
+                    <img src = "sdccd.png" className = "college-images" alt="SDCCD Logo"/>
         
                     <div className = "degree-type">
                         <strong>Television, Film, and New Media B.S.</strong>
@@ -138,8 +138,8 @@ export function Education ({}) {
                             <li>Japanese I and II</li>
                         </ul>
                     </div>
-                    <img src= "src/public/sdsucampus.jpg" className = "college-images" alt="SDSU building"/>
-                    <img src = "src/public/sdsu.png" className = "college-images" alt="SDSU campus"/>
+                    <img src= "sdsucampus.jpg" className = "college-images" alt="SDSU building"/>
+                    <img src = "sdsu.png" className = "college-images" alt="SDSU campus"/>
                 </div>
             </div>
             </>

@@ -21,7 +21,7 @@ export function Projects ({}) {
 
             <div className = "projects">
                 <div className = "project">
-                    <img src="src/public/nasa.png" alt="NASA VR Project"/>
+                    <img src="nasa.png" alt="NASA VR Project"/>
                     <div className = "caption"> 
                         <div>As a part of my <a href="https://psyche.asu.edu/get-involved/capstone-projects/capstone-projects-iridium-className/nasa-surface-data-vr-uci-d/">
                             senior capstone</a> project, I've been working with a team of UCI students to develop a VR 
@@ -31,7 +31,7 @@ export function Projects ({}) {
                     </div>
                 </div>
                 <div className = "project">
-                    <img src="src/public/search_engine.png" alt="Search Engine graphical user interface"/>
+                    <img src="search_engine.png" alt="Search Engine graphical user interface"/>
                     <div className = "caption"> 
                         <div> A UCI-specific search engine with an interface, coded from scratch. It indexes pages that it visits and can look up 
                             "AND"-type queries in about 100ms.
@@ -43,7 +43,7 @@ export function Projects ({}) {
                     </div>
                 </div>
                 <div className = "project" id="a3">
-                    <img src="src/public/event_app.png" alt="Event Management Web App"/>
+                    <img src="event_app.png" alt="Event Management Web App"/>
                     <div className = "caption"> 
                         <div>A full-stack React web application that allows users to create
                             accounts and create, search for, sign up for, and delete events.
@@ -58,7 +58,7 @@ export function Projects ({}) {
 
                 
                 <div className = "project">
-                    <img src="src/public/a4.png" alt="sleep tracking app"/>
+                    <img src="a4.png" alt="sleep tracking app"/>
                     <div className = "caption"> 
                         <div>A simple sleep-tracking app using Angular and Ionic.
                         Users log when they went to sleep and when they woke up. They can also log their sleepiness throughout
@@ -67,7 +67,7 @@ export function Projects ({}) {
                     </div>
                 </div>
                 <div className = "project" id="a3">
-                    <img src="src/public/a3.png" alt="spotify browser web app"/>
+                    <img src="a3.png" alt="spotify browser web app"/>
                     <div className = "caption"> 
                         <div>My first Angular project and my introduction to TypeScript - a Spotify browser.
                         Users can search up tracks, artists, albums, and track features upon logging in via OAuth.
@@ -76,7 +76,7 @@ export function Projects ({}) {
                     </div>
                 </div>
                 <div className = "project">
-                    <img src="src/public/a5.png" alt="Man holding hand to generate random animal"/>
+                    <img src="a5.png" alt="Man holding hand to generate random animal"/>
                     <div className = "caption"> 
                         <div>A small Angular project in accessibility modalities that utilizes hand gestures to generate
                         random animal images from various APIs. Images/headers are stored in stacks to

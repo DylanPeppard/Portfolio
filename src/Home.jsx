@@ -20,7 +20,7 @@ export function Home ({}) {
             <div className="portfolio-items-wrapper">
 
                 <div className="portfolio-item-wrapper">
-                    <a href="education"><img className="portfolio-item-bg" src="src/public/uci.jpg" alt="UC Irvine sign"/></a>
+                    <a href="education"><img className="portfolio-item-bg" src="uci.jpg" alt="UC Irvine sign"/></a>
                     <div className="img-txt-wrapper">
                         <div className="subtitle">
                             <a href="education">Education</a>
@@ -30,7 +30,7 @@ export function Home ({}) {
                 </div>
 
                 <div className="portfolio-item-wrapper">
-                    <a href="about"><img src="src/public/headshot-1.jpg" className="portfolio-item-bg" alt="Dylan Peppard"/></a>
+                    <a href="about"><img src="headshot-1.jpg" className="portfolio-item-bg" alt="Dylan Peppard"/></a>
                     <div className="img-txt-wrapper">
                         <div className="subtitle">
                             <a href="about">About me</a>
@@ -39,7 +39,7 @@ export function Home ({}) {
                 </div>
 
                 <div className="portfolio-item-wrapper">
-                    <a href="work"><img src="src/public/uscg.jpg" className="portfolio-item-bg" alt="U.S. Coast Guard logo"/></a>
+                    <a href="work"><img src="uscg.jpg" className="portfolio-item-bg" alt="U.S. Coast Guard logo"/></a>
                     <div className="img-txt-wrapper">
                         <div className="subtitle">
                             <a href="work">Work</a>
@@ -48,7 +48,7 @@ export function Home ({}) {
                 </div>
 
                 <div className="portfolio-item-wrapper">
-                    <a href="projects"><img src="src/public/psycheMenu.png" className="portfolio-item-bg" alt="Python shell program"/></a>
+                    <a href="projects"><img src="psycheMenu.png" className="portfolio-item-bg" alt="Python shell program"/></a>
                     <div className="img-txt-wrapper">
                         <div className="subtitle">
                             <a href="projects">Projects</a>

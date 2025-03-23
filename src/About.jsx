@@ -18,7 +18,7 @@ export function About ({}) {
             </div>
 
             <div className="headshot2">
-                <img src="src/public/me2.jpg" className="center" alt="Dylan Peppard in front of Chicago's 'The Bean'"/>
+                <img src="me2.jpg" className="center" alt="Dylan Peppard in front of Chicago's 'The Bean'"/>
             </div>
             <div className = "biography">
                 <div>Hi! I'm 26 years old and from San Diego, CA. I'm graduating with my second B.S. in Software Engineering
