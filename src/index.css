@@ -73,17 +73,20 @@ body {
   display: flex;
   flex-direction: column; /* Stack image and text vertically */
   justify-content: center;
+  width: 100%;
   align-items: center;
   text-align: center;      /* Center-align text */
 }
 
 .portfolio-item-bg {
-  height: 345px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   width: 100%;
+  height: auto;
+  max-width: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: auto;           /* Center the images */
   transition: transform 0.3s ease;
 }
 
@@ -243,4 +246,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .portfolio-items-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
