@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 38px;
-  background-color:rgb(220, 239, 255)
+  background-color:rgb(206, 214, 238)
 }
 
 .left {
@@ -53,6 +53,7 @@ body {
 
 .my-name {
   font-size: 22px;
+  color: #8a8a8a;
 }
 
 /*Portfolio*/
@@ -111,13 +112,13 @@ body {
 }
 
 .college-details {
-  color:rgb(68,147,153);
+  color:rgb(164, 176, 211);
   font-size: 90%;
 }
 
 .college-education {
   padding-top: 20px;
-  color:rgb(68,147,153);
+  color:rgb(164, 176, 211);
   font-size: 150%;
 
 }
