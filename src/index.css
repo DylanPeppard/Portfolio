@@ -58,25 +58,31 @@ body {
 /*Portfolio*/
 .portfolio-items-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr); /* Ensure two equal columns */
+  gap: 0 30px;                            /* Add spacing between items */
   max-width: 100%;
-  height: auto;
+  margin: 0 auto;                       /* Center the grid container */
+  padding-top: 10px;
+  justify-content: center;              /* Center items horizontally */
+  align-items: start;                   /* Align items at the top */
+  text-align: center;                   /* Center-align text */
+}
+
+.portfolio-item-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center;      /* Center-align text */
 }
 
 .portfolio-item-bg {
-  height: 600px;
+  height: 345px;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.portfolio-item1-bg {
-  height: 600px;
-  width: 96%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  margin: auto;           /* Center the images */
 }
 
 .img-txt-wrapper {
