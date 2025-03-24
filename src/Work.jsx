@@ -24,31 +24,21 @@ export function Work ({}) {
             <div className="uscg-title">
                 <h1 style={{textAlign:"center"}}><strong>U.S. Coast Guard</strong></h1>
             </div>
+            <img src="me_rimpac2.jpg" className='uscg-img' alt="Website owner in military gear"></img>
             <div className="job-description">
-                <div>Reservist in the U.S. Coast Guard. Specialize in federal maritime law enforcement
-                    with regards to defending domestic and international ports. I posess a secret security clearance.
-                    Demonstrated unit capabilities to allied admirals during RIMPAC 2024. 
+                <div>I kick doors one weekend a month. Maritime Law Enforcement Specialist with regards to defending
+                    ports and high value assets. Demonstrated Entry Control Points, Point Defense, and Force Protection
+                    to allied admirals during RIMPAC 2024. And I hold a security clearance ✅
                 </div>
-            <div>I joined in support of the Coast Guard's 11 missions and to fight the fentanyl crisis.
-                I also wanted to gain general life skills, such as CPR, firefighting, marksmanship, law
-                enforcement knowledge, and to gain first-hand experience and insight into how the military 
-                operates internally.
-            </div>
             </div>
 
             <div className="mngo-title">
                 <h1 style={{textAlign:"center"}}><strong>MNGO Café</strong></h1>
             </div>
             <div className="job-description">
-                <div>My previous job was with MNGO Café in San Diego, where I quickly
-                worked my way up to becoming a supervisor who could quickly make Thai desserts and
-                train other staff. Not only did I hone my management skills and those specific to the 
-                job, but I notably developed interpersonal skills by working behind a counter with friends
-                for thirty hour weeks. The income that I earned here helped me get into real estate, 
-                liberating me to buy a rental house up in Montana and completing the homebuying process
-                remotely while simultaneously finding a property manager to help me find and vet tenants.
-                Although I loved this job, I had to hang up the apron after one-and-a-half years and move
-                    to Irvine for school.</div>
+                <div>I made Thai desserts and quickly worked my way up to supervisor in a couple of months. Went on to
+                    train staff and supervise the cafe throughout COVID. After 1.5 years, I had to move for school. I loved this job.
+                </div>
             </div>
 
         </div>
