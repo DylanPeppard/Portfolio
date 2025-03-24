@@ -16,11 +16,14 @@ body {
 
 .wrapper {
   display: flex;
-  display: flex;
-  position: sticky; /* Sticks to the top but keeps its space */  justify-content: space-between;
+  position: sticky;  
+  justify-content: space-between;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 38px;
-  background-color:rgb(206, 214, 238)
+  background-color:rgb(206, 214, 238);
+  z-index: 100;
 }
 
 .left {
@@ -222,19 +225,21 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: start;
+  z-index: 1;
 }
 
 .project {
-  display: flex;               /* Use flexbox for layout */
-  flex-direction: column;      /* Stack image and caption vertically */
-  justify-content: center;     /* Center items vertically */
-  align-items: center;         /* Center items horizontally */
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
   margin: auto;
   padding-top: 40px;
   padding-bottom: 30px;
-  transition: transform 0.3s ease; /* Apply a smooth scaling transition */
+  transition: transform 0.3s ease; 
   padding-left: 30px;
   padding-right: 30px;
+  z-index: 2;
 }
 
 .caption {
@@ -250,6 +255,7 @@ body {
 /* Hover effect to scale projects */
 .project:hover {
   transform: scale(1.05); /* Scale up on hover */
+  z-index: 1;
 }
 
 .center {
