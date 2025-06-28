@@ -6,13 +6,12 @@ import Contact from './Contact'
 import Education from './Education'
 import Work from './Work'
 import About from './About'
+import usePageTracking from './hooks/usePageTracking'
 //import './App.css'
 
-function App() {
-
-  return (
-    <>
-      <Router>
+function AppRoutes() {
+  usePageTracking()
+  return(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -22,6 +21,14 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
         </Routes>
+  )
+}
+
+function App() {
+  return (
+    <>
+      <Router>
+        <AppRoutes />
       </Router>
     </>
   )
