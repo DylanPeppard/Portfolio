@@ -24,7 +24,7 @@ export function Projects ({}) {
                 <div className = "project">
                     <img src="nasa.png" alt="NASA VR Project"/>
                     <div className = "caption"> 
-                        <div>Award-winning <a href="https://psyche.ssl.berkeley.edu/get-involved/capstone-projects/capstone-projects-iridium-class/nasa-surface-data-vr-uci-d/">
+                        <div>Award-winning <a target="_blank" href="https://psyche.ssl.berkeley.edu/get-involved/capstone-projects/capstone-projects-iridium-class/nasa-surface-data-vr-uci-d/">
                             senior capstone</a> project competing against 25 other UCI teams. I worked with a team of five other skilled 
                             UCI students to develop a VR simulation of NASA Psyche - a metal-rich asteroid - through sponsors at Arizona 
                             State University. I implemented user interfaces and game logic (e.g., main menu, in-game menu, scene transiti
