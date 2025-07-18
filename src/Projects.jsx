@@ -24,11 +24,11 @@ export function Projects ({}) {
                 <div className = "project">
                     <img src="nasa.png" alt="NASA VR Project"/>
                     <div className = "caption"> 
-                        <div>As a part of my <a href="https://psyche.asu.edu/get-involved/capstone-projects/capstone-projects-iridium-className/nasa-surface-data-vr-uci-d/">
-                            senior capstone</a> project, I've been working with a team of UCI students to develop a VR 
-                            simulation of NASA Psyche - a metal-rich asteroid - through sponsors at Arizona State University. 
-                            I implemented user interfaces and game logic (e.g., main menu, in-game menu, scene transitioning and 
-                            timing, progress tracking, controls) while leading scrums, gathering requirements, and designing UMLs.</div>
+                        <div>Award-winning <a href="https://psyche.asu.edu/get-involved/capstone-projects/capstone-projects-iridium-className/nasa-surface-data-vr-uci-d/">
+                            senior capstone</a> project competing against 25 other UCI teams. I worked with a team of five other skilled 
+                            UCI students to develop a VR simulation of NASA Psyche - a metal-rich asteroid - through sponsors at Arizona 
+                            State University. I implemented user interfaces and game logic (e.g., main menu, in-game menu, scene transiti
+                            oning and timing, progress tracking, controls) while leading scrums, gathering requirements, and designing UMLs.</div>
                     </div>
                 </div>
                 <div className = "project">
