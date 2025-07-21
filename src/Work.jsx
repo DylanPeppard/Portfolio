@@ -26,9 +26,9 @@ export function Work ({}) {
             </div>
             <img src="me_rimpac2.jpg" className='uscg-img' alt="Website owner in military gear"></img>
             <div className="job-description">
-                <div>I kick doors one weekend a month. Maritime Law Enforcement Specialist with regards to defending
+                <div>Maritime Law Enforcement Specialist with regards to defending
                     ports and high value assets. Demonstrated Entry Control Points, Point Defense, and Force Protection
-                    to allied admirals during RIMPAC 2024. And I hold a security clearance ✅
+                    to allied admirals during RIMPAC 2024. I maintain proficiency in weapon systems and physical security and hold an active Secret clearance.
                 </div>
             </div>
 
@@ -36,8 +36,8 @@ export function Work ({}) {
                 <h1 style={{textAlign:"center"}}><strong>MNGO Café</strong></h1>
             </div>
             <div className="job-description">
-                <div>I made Thai desserts and quickly worked my way up to supervisor in a couple of months. Went on to
-                    train staff and supervise the cafe throughout COVID. After 1.5 years, I had to move for school. I loved this job.
+                <div>I made Thai desserts and quickly worked my way up to supervisor within a couple of months. I went on to
+                    train staff and supervise the cafe throughout COVID. After 1.5 years, I had to move for school.
                 </div>
             </div>
 
